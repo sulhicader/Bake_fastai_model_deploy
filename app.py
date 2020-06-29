@@ -3,8 +3,8 @@ import os
  
 from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
-import torch
-import torch.nn as nn
+#import torch
+#import torch.nn as nn
 from fastai.vision import *
 from fastai.metrics import error_rate
 import numpy as np
@@ -102,4 +102,4 @@ app.wsgi_app = SharedDataMiddleware(app.wsgi_app, {
 
 if __name__ == "__main__":
     app.debug=False
-    app.run(host='0.0.0.0', port=3002)
+    app.run(host='0.0.0.0', port=3000)
