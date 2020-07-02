@@ -8,9 +8,9 @@ from werkzeug.utils import secure_filename
 from fastai.vision import *
 from fastai.metrics import error_rate
 import numpy as np
-import argparse
-import imutils
-import cv2
+#import argparse
+#import imutils
+#import cv2
 import time
 import uuid
 import base64
